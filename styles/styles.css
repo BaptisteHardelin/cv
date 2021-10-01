@@ -22,6 +22,11 @@ footer {
     width: 50px;
 }
 
+#download:hover {
+    transition: 1s ease-in-out;
+    background: #4F95DA;
+}
+
 #vscode {
     width: 50px; 
 }
@@ -40,6 +45,10 @@ footer {
     text-align: center;
 }
 
+#download {
+    border-radius: 50px;
+    font-size: 18px;
+}
 
 .centerElement {
     display: block;
@@ -105,8 +114,9 @@ Code trouvé ici : https://www.w3schools.com/css/css3_flexbox_responsive.asp
 
 /*
 ToolTip
-Code trouvé ici     : https://www.w3schools.com/css/css_tooltip.asp
+Code trouvé ici : https://www.w3schools.com/css/css_tooltip.asp
 */
+
 .tooltip {
     position: relative;
     display: inline-block;
@@ -140,4 +150,18 @@ Code trouvé ici     : https://www.w3schools.com/css/css_tooltip.asp
   
 .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+/*Style bouton : */
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;
 }
