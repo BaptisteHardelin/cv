@@ -50,6 +50,10 @@ footer {
     font-size: 18px;
 }
 
+#downloadLink {
+    text-decoration: none;
+}
+
 .centerElement {
     display: block;
     margin-left: auto;
