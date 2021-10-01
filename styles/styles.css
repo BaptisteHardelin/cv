@@ -1,0 +1,64 @@
+header {
+    background-image: url("../img/background.png");
+}
+
+#me {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+#github {
+    width: 50px;
+}
+
+#linkedin {
+    width: 50px;
+}
+
+
+.centerElement {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Style des listes*/
+.noStyleList {
+    list-style: none;
+}
+
+.styleListVide {
+    list-style-type: circle;
+}
+
+.tabulation {
+    margin-left: 20px;
+}
+
+.souligner {
+    text-decoration: underline;
+}
+
+/*Flex box responsive :*/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    /*text-align: center;*/
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}
