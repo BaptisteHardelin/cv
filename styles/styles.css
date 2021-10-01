@@ -17,6 +17,10 @@ header {
     width: 50px;
 }
 
+#vscode {
+    width: 50px; 
+}
+
 
 .centerElement {
     display: block;
