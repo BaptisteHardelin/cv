@@ -52,6 +52,15 @@ footer {
     justify-content: center;
 }
 
+.centerDiv {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.lightPadding {
+    padding: 10px;
+}
+
 /*Style des listes*/
 .noStyleList {
     list-style: none;
