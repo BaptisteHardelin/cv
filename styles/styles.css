@@ -3,6 +3,11 @@ header {
     background-size: cover;
 }
 
+footer {
+    background-image: url("../img/background.png");
+    background-size: cover;    
+}
+
 #me {
     color:white;
     font-weight: bold;
@@ -29,11 +34,22 @@ header {
     width: 50px;
 }
 
+#contacter {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
 
 .centerElement {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.centerImage {
+    display: flex;
+    justify-content: center;
 }
 
 /*Style des listes*/
