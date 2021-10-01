@@ -22,11 +22,6 @@ footer {
     width: 50px;
 }
 
-#download:hover {
-    transition: 1s ease-in-out;
-    background: #4F95DA;
-}
-
 #vscode {
     width: 50px; 
 }
