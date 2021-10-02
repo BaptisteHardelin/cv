@@ -1,0 +1,12 @@
+.cyrilsyn p:not(:last-child)::first-letter {
+    font-size:170%;
+}
+.cyrilsyn{
+    width:70%;
+    color:black;
+    margin-top: 50px;
+}
+.cyrilsyn p{
+    text-align:justify;
+}
+

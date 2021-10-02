@@ -1,0 +1,54 @@
+.synthese {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width:70%;
+}
+
+.synthese p{
+    text-align:justify;
+    font-size:1vw;
+    line-height:170%;
+}
+
+.synthese p:not(:last-child) {
+    text-indent:5%;
+}
+
+.synthese p:not(:first-child) {
+    margin-top:7.5%;
+}
+
+.synthese p:not(:last-child)::first-letter {
+    font-size:170%;
+}
+
+.synthese p a {
+    font-style:italic;
+    color:black;
+    text-decoration:none;
+}
+
+.synthese p a:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.avecImage {
+    display:block;
+}
+
+.avecImage img {
+    border-radius: 7.5%;
+    max-width:45%;
+    float:left;
+    padding-left:2.5%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+}
+
+.waymo img {
+    float:right;
+}
+
+.synthese p:last-child {
+    font-style:italic;
+}

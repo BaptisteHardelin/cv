@@ -1,0 +1,15 @@
+.contenuSynthese{
+    width:70% !important;
+    margin:auto;
+    margin-top:10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:vw;
+
+}
+p{
+    margin-left:10px;
+    margin-right:10px;
+}
+.texte p:not(:last-child)::first-letter {
+    font-size:170%;
+}

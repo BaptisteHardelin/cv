@@ -1,0 +1,60 @@
+.contenuSynthese {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+}
+
+.contenuSynthese p{
+    text-align:justify;
+    font-size:1vw;
+    line-height:170%;
+}
+
+.contenuSynthese p:not(:last-child) {
+    text-indent:5%;
+}
+
+.contenuSynthese p:not(:first-child) {
+    margin-top:7.5%;
+}
+
+.contenuSynthese p:not(:last-child)::first-letter {
+    font-size:170%;
+}
+
+.contenuSynthese p a {
+    font-style:italic;
+    color:black;
+    text-decoration:none;
+}
+
+.contenuSynthese p a:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+.avecImage {
+    display:block;
+}
+
+.avecImage img {
+    border-radius: 7.5%;
+    max-width:45%;
+}
+
+.left img {
+    float:left;
+    padding-right:2.5%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+}
+
+.right img {
+    float:right;
+    padding-left:2.5%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+}
+
+.contenuSynthese p:last-child {
+    font-style:italic;
+}

@@ -1,0 +1,9 @@
+
+.sampletext{
+    width:70%;
+    color:black;
+    margin-top: 50px;
+}
+ul li{
+    list-style-image: url("../images/puceverte.png");
+}
