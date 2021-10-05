@@ -8,6 +8,33 @@ footer {
     background-size: cover;    
 }
 
+a {
+    font-weight: bold;
+    text-decoration: dotted;
+}
+
+a:link {
+    font-weight: bold;
+    color: black;
+    text-decoration: dotted;
+}
+
+a:visited {
+    font-weight: bold;
+    color: black;
+    text-decoration: dotted;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: dotted;
+}
+
+a:active {
+    font-weight: bold;
+    text-decoration: dotted;
+}
+
 #me {
     color:white;
     font-weight: bold;
