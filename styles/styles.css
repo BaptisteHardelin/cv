@@ -11,28 +11,33 @@ footer {
 a {
     font-weight: bold;
     text-decoration: dotted;
+    font-style: italic;
 }
 
 a:link {
     font-weight: bold;
     color: black;
     text-decoration: dotted;
+    font-style: italic;
 }
 
 a:visited {
     font-weight: bold;
     color: black;
     text-decoration: dotted;
+    font-style: italic;
 }
 
 a:hover {
     font-weight: bold;
     text-decoration: dotted;
+    font-style: italic;
 }
 
 a:active {
     font-weight: bold;
     text-decoration: dotted;
+    font-style: italic;
 }
 
 #me {
