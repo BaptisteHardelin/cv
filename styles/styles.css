@@ -198,3 +198,9 @@ code trouvé ici : https://www.w3schools.com/howto/howto_css_download_button.asp
 .btn:hover {
     background-color: RoyalBlue;
 }
+
+.shadow {
+    -webkit-box-shadow: 2px -3px 5px 7px rgba(199,199,199,0.85); 
+    box-shadow: 2px -3px 5px 7px rgba(199,199,199,0.85);
+    background: #FFFFFF;
+}
