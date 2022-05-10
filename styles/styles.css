@@ -46,6 +46,10 @@ a:active {
     text-align: center;
 }
 
+#mongo {
+    width: 50px;
+}
+
 #github {
     width: 50px;
 }
